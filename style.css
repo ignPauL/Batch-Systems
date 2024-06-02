@@ -352,3 +352,96 @@ footer {
 .fnewsletter p{
     font-weight:bold;
 }
+
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 2rem;
+    }
+    nav ul {
+        gap: 20px;
+        margin-right: 2rem;
+    }
+    .download {
+        margin-right: 2rem;
+    }
+    .hero h1, .hero p {
+        margin-left: 1rem;
+        max-width: none;
+        text-align: center;
+    }
+    .cta-buttons {
+        margin-right: 0;
+        text-align: center;
+    }
+    .phone-container {
+        width: 100%;
+        height: auto;
+    }
+    .phone {
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .circle {
+        display: none;
+    }
+    .line {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .gradient-container, .phone-gradient {
+        display: none;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo {
+        margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .download {
+        margin: 10px 0;
+    }
+    .hero h1 {
+        font-size: 1.8em;
+        margin-left: 0;
+    }
+    .hero p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+    }
+    .phone-container {
+        width: 100%;
+        height: auto;
+    }
+    .phone {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+}
